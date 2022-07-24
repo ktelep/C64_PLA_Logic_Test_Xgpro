@@ -7,7 +7,8 @@ Test basic functionality of a Commodore 64 PLA using Xgpro and a TL866ii+ reader
 There is a logic IC testing function in Xgpro, combined with a TL866ii+, you can leverage this functionality to test the LOGIC of a C64 PLA to validate 
 some functionality.   This does not test any timing functionality, but I've found that only in rare conditions does a PLA pass this test, but is still failed.
 
-This performs 25 tests, which map to the (well documented) PLA I/O patterns with associated don't care conditions.
+Performs all tests based on this logic map:  http://zimmers.net/anonftp/pub/cbm/magazines/transactor/v6i5/p052.jpg
+
 
 ## Getting Started
 
